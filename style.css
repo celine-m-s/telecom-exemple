@@ -25,39 +25,6 @@ h3 {
   float: left;
 }
 
-/* COLOMNS */
-
-.clear {
-  clear: both;
-}
-
-.column {
-  float: left;
-}
-
-.column img {
-  width: 100%;
-}
-
-.column-1-3 {
-  width: 29%;
-  margin: 2%;
-}
-
-.column-1-5 {
-  width: 19%;
-  margin: 2%;
-}
-
-.column-4-5 {
-  width: 73%;
-  margin: 2%;
-}
-
-.clear {
-  clear: both;
-}
-
 a {
   color: #B31815;
   text-decoration: none;
@@ -101,6 +68,7 @@ header h1 {
   top: 0;
   margin: 0;
   padding-left: 0;
+  z-index: 2;
 }
 
 .navbar-nav li, .social-media li {
@@ -155,10 +123,19 @@ header .avatar {
 }
 
 /*FORM*/
-.form {
+#contact-form {
   text-align: center;
+  margin-top: 30px;
 }
 
 .form-input {
   margin: 30px;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.submit-button button {
+  margin-top: 0;
 }
