@@ -11,5 +11,29 @@ h1, h2, h3, h4, h5, h6, a {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-dlfk
+h3 {
+  border-bottom: 1px solid #B31815;
+  text-align: center;
+  color: #B31815;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.block {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
 /*HEADER*/
+
