@@ -152,3 +152,8 @@ header .avatar {
 .submit-button button {
   margin-top: 0;
 }
+
+/*Don't use .hidden class as it is a Bootstrap class*/
+.hiddenMessage {
+  display: none;
+}

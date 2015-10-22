@@ -188,7 +188,7 @@
     
     
     
-    <div class="clear"></div>
+    
   </section>
 
   <section id="contact">
@@ -213,13 +213,19 @@
           <div class="form-group">
             <label for="message" class="col-sm-2 control-label">Message : </label>
             <div class="col-sm-10">
-              <textarea placeholder ="Ecrivez votre message ici" id="message" class="form-control"></textarea>
+              <textarea placeholder ="Ecrivez votre message ici" id="message" class="form-control" name="message"></textarea>
             </div>
           </div>
           <div class="form-group submit-button">
               <button type="submit" class="btn btn-default">Envoyer</button>
           </div>
         </form>
+        <div id="formSuccessMessage" class="hiddenMessage">
+          Merci ! Je vous répondrai au plus vite.
+        </div>
+        <div id="formErrorMessage" class="hiddenMessage">
+          Oups ! Une erreur est survenue. Merci d'essayer dans quelques minutes ou retrouvez-moi sur les réseaux sociaux !
+        </div>
       </div>
     </div>
 
@@ -237,7 +243,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Inscription à la newsletter</h4>
       </div>
       <div class="modal-body">
         <!-- NEWSLETTER -->
@@ -251,7 +257,6 @@
         <div id="mc_embed_signup">
         <form action="https://c-m-s.us8.list-manage.com/subscribe/post?u=73d14c8342b306d81bf88392f&amp;id=eba8a0700d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
-          <h2>Newsletter</h2>
         <div class="indicates-required"><span class="asterisk">*</span> champ requis</div>
         <div class="mc-field-group">
           <label for="mce-EMAIL">Email  <span class="asterisk">*</span>
@@ -277,10 +282,6 @@
         </div>
         <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         <!--End mc_embed_signup-->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
