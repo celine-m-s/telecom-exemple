@@ -7,16 +7,16 @@ $(document).ready(function(){
   $('#contact-form').submit(function(){
     $.ajax({
       dataType: 'jsonp',
-      url: "http://getsimpleform.com/messages/ajax?form_api_token=db43324d01c3a99e4a03fb9e0335d5c5",
-      data: $("#contactForm").serialize(),
+      url: "http://getsimpleform.com/messages/ajax?form_api_token=89dc510186f1d432035c554d85654baf",
+      data: $("#contact-form").serialize(),
       error: function() {
-        $('#contactForm').hide();
+        $('#contact-form').hide();
         $('#formErrorMessage').show();
       }
     }).done(function() {
       //callback which can be used to show a thank you message
       //and reset the form
-      $('#contactForm').hide();
+      $('#contact-form').hide();
       $('#formSuccessMessage').show();
     });
     return false; //to stop the form from submitting
